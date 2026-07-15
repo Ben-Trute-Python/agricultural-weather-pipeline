@@ -1,0 +1,7 @@
+__pycache__/
+*.png
+.ssh/
+.cache/
+.config/
+.matplotlib/
+.*_history
