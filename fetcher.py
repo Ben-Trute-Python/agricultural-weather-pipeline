@@ -1,24 +1,27 @@
 import urllib.request
 import json
 
-def get_weather_data(lat, lon):
+def get_weather_data(lat, lon, start_date, end_date):
     """
-    Fetches 7-day weather forecast data from Open-Meteo API.
-    Returns parsed JSON data, or None if the request fails.
+    Fetches historical weather data for a specific winter block 
+    from the Open-Meteo Archive API.
     """
+    # 🔄 We switch from /v1/forecast to /v1/archive to allow historical queries
     url = (
-        f"https://api.open-meteo.com/v1/forecast?"
+        f"https://archive-api.open-meteo.com/v1/archive?"
         f"latitude={lat}&longitude={lon}"
+        f"&start_date={start_date}"
+        f"&end_date={end_date}"
         f"&hourly=temperature_2m"
         f"&daily=rain_sum"
         f"&temperature_unit=fahrenheit"
         f"&precipitation_unit=inch"
         f"&timezone=auto"
-        f"&past_days=14"
     )
-    
+
     try:
-        print(f"🌐 Fetching weather data for coordinates ({lat}, {lon})...")
+        # The rest of your network code stays exactly the same!
+        print(f"🌍 Fetching data from API...")
         response = urllib.request.urlopen(url, timeout=7)
         raw_data = response.read()
         return json.loads(raw_data)
