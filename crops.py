@@ -64,5 +64,29 @@ CROP_DATABASE = {
             "can be raised successfully below this threshold. Small-scale experimental plantings "
             "may be worth trying in borderline zones!"
         )
+    },
+    "Sour Cherries": {  
+        "min_chill": 800,
+        "usda_zone": "3", 
+        "hardiness_temp_f": -40,  # Hardy
+        "min_rain_inches": 25,
+        "notes": (
+           "Extremely cold-hardy"
+           "Note: Sour Cherries tolorate colder tempatures than sweet cherries but require more chill hours also" 
+       )        
+    },
+    "Low Chill Sweet Cherries": {
+        "min_chill": 300,
+        "usda_zone": "5",
+        "hardiness_temp_f": -20,
+        "min_rain_inches": 25,
+        "notes": "Requires well-drained soil."
+    },
+    "Medium Chill Sweet Cherries": {
+        "min_chill": 500,
+        "usda_zone": "5",
+        "hardiness_temp_f": -20,
+        "min_rain_inches": 25,
+        "notes": "Requires well-drained soil."
     }
-}
+}   
