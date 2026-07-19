@@ -69,3 +69,12 @@ Ensure you have Python installed, then clone the repository
 and execute the main controller:
 ```bash
 python app.py
+
+## 🤝 Contact & Contributing
+If you are a recruiter, hiring manager, or developer looking to connect, feel free to reach out:
+* **Email:** padre.island.python@gmail.com 
+* **GitHub Profile:** https://github.com/Ben-Trute-Python
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
+ 
