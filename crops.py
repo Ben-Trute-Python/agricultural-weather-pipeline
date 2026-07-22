@@ -95,5 +95,12 @@ CROP_DATABASE = {
         "hardiness_temp_f": 20,
         "min_rain_inches": 40,
         "notes": "Many avacados especialy west indiand types are not well adapted to freezing tempratures. This data only appplys to Hass or a few other hardy varieties."
+    },
+    "All In One Almond": {
+        "min_chill": 300,
+        "usda_zone": "5",
+        "hardiness_temp_f": -20,
+        "min_rain_inches": 40,
+        "notes": " Most almonds require 300 chill hours. However, different almond varieties may have slightly different chilling requirements. For example, some sources suggest that Nonpareil almonds need more chill hours (400-600). Therefore, it is important to know the specific chilling requirement of your almond variety before planting or managing your orchard."
     }
 }   
