@@ -88,5 +88,12 @@ CROP_DATABASE = {
         "hardiness_temp_f": -20,
         "min_rain_inches": 25,
         "notes": "Requires well-drained soil."
+    },
+    "Hass Avacado": {
+        "min_chill": 0,
+        "usda_zone": "9",
+        "hardiness_temp_f": 20,
+        "min_rain_inches": 40,
+        "notes": "Many avacados especialy west indiand types are not well adapted to freezing tempratures. This data only appplys to Hass or a few other hardy varieties."
     }
 }   
