@@ -102,5 +102,12 @@ CROP_DATABASE = {
         "hardiness_temp_f": -20,
         "min_rain_inches": 40,
         "notes": " Most almonds require 300 chill hours. However, different almond varieties may have slightly different chilling requirements. For example, some sources suggest that Nonpareil almonds need more chill hours (400-600). Therefore, it is important to know the specific chilling requirement of your almond variety before planting or managing your orchard."
+    },
+    "Olive": {
+        "min_chill": 300,
+        "usda_zone": "8b",
+        "hardiness_temp_f": 17,
+        "min_rain_inches": 16,
+        "notes": "Most olives suffer damage below 17 degrees F, however some varieties like Arbequina can take colder tempratures but requires more chill hours"
     }
 }   
